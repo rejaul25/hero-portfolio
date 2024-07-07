@@ -1,0 +1,288 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* common style */
+ 
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.bg-primary{
+    background: #FD6E0A;
+}
+.bg-secondary{
+    background: #FFF8F3;
+}
+.color-primary{
+    color: #FD6E0A;
+}
+.color-secondary{
+    color: #757575;
+}
+.light-dark{
+    color: #757575;
+}
+.container{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.mt-common{
+    margin-top: 130px;   
+   }
+/* common style */
+
+/* navbar */
+header{
+    width: 100%;
+    height: 797px;
+    background-image: url(../images/developer.png),
+    url(../images/header_bg.png)
+    ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+     
+}
+nav{
+    padding: 51px 226px 0px 230px;
+}
+.web-logo h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+nav ul{
+    gap: 68px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #474747;
+}
+.btn-primary{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 18px 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.icon-padding{
+    padding-right: 8px;
+}
+ 
+/* hero section */
+.hero-left{
+    margin: 160px 0px 0px 230px;
+}
+.hero-left{
+    width: 585px;
+    height: 356px;
+}
+.hero-left h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.hero-left h1{
+    font-size: 84px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.hero-left .hero-det{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 28px 0px;
+}
+.hero-left .contact{
+    background: none !important;
+    border: 1px solid #FD6E0A !important;
+    color: #FD6E0A !important;
+}
+.hero-right{
+    width: 50%;
+}
+.hero-right img{
+    width: 550px;
+    height: 656px;
+    margin-top: 25px;
+    
+}
+/* hero section */
+/* navbar */
+
+/* about me */
+ 
+.about-details{
+    padding: 131px 157px;
+    text-align: center;
+}
+.section-header{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+.about-details .about-description{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 0px;
+     
+}
+.bout-info-head{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-info-text{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* about me */
+/* what i do */
+
+.what-i-do-description{
+    font-size: 18px;
+    font-weight: 400;
+    width: 909px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    
+}
+
+/* skills */
+.my-skills{
+    margin-top: 50px;
+    gap: 24px;
+}
+.skill-card{
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
+}
+.skill-card img{
+    width: 44px;
+    height: 44px;
+}
+.skills-name{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.skills-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* what i do */
+
+/* my resume */
+.my-qualification{
+    gap: 24px;
+}
+.resume-box{
+    width: 511px;
+    height: 175px;
+}
+.resume-head{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 8px;
+     
+}
+.degree-name{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 20px;
+}
+.degree-from{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding: 30px 0px;
+}
+.resume-horizontal{
+    width: 558px;
+    margin-top: 30px;
+}
+.download-cv-btn{
+    margin-top: 50px;
+    cursor: pointer;
+}
+/* my resume */
+
+/* footer */
+footer{
+    padding: 60px 0px;
+}
+.footer-main{
+    gap: 65px;
+}
+
+.footer-left ul {
+    gap: 20px;
+}
+.footer-left ul li{
+    list-style: none;
+}
+ 
+
+.footer-right form input{
+    display: block;
+    margin-top: 24px;
+    width: 461px;
+    height: 64px;
+    padding: 18px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.footer-right form textarea{
+    display: block;
+    margin-top: 24px;
+    padding: 18px 15px;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+/* footer */
